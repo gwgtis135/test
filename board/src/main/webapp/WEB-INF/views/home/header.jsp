@@ -19,10 +19,17 @@
 				<li><a class="active" href="home.do">Home</a></li>
 				<c:if test="${empty id }">
 						<li><a href="memberLoginForm.do">로그인</a></li>
+							<li><a href="memberLogout.do">로그아웃</a></li>
+								<li><a href="memberLogout.do">로그아웃</a></li>
+									<li><a href="memberLogout.do">로그아웃</a></li>
+										<li><a href="memberLogout.do">로그아웃</a></li>
 						<li><a href="memberJoinForm.do">회원가입</a></li>
 				</c:if>
 				<c:if test="${not empty id }">			<!-- id값이 비어있으면 안보이게 -->
-					<li><a href="noticeList.do">공공공공</a></li>
+
+					<li><a href="noticeList.do">공지사항1212</a></li>
+
+
 					<li><a href="#">About</a></li>
 					<li><a href="#">Product</a></li>
 					<li><a href="memberMyInfoForm.do">나의정보</a></li>	<!-- 로그인된 사람들의 정보를 가져올수 있게 해야한다. -->
