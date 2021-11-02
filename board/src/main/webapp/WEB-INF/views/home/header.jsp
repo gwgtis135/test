@@ -16,7 +16,7 @@
 		<div>
 			<!-- 메뉴부분 -->
 			<ul>
-				<li><a class="active" href="home.do">Home</a></li>
+				<li><a class="active" href="home.do">HOME HANKI</a></li>
 				<c:if test="${empty id }">
 						<li><a href="memberLoginForm.do">로그인</a></li>
 							<li><a href="memberLogout.do">로그아웃</a></li>
